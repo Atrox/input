@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mitchellh/go-homedir"
+	"github.com/atrox/homedir"
 )
 
 var homeBase string

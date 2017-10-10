@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mitchellh/go-homedir"
+	"github.com/atrox/homedir"
 )
 
 // RequiredValidator ensures the input is not empty
@@ -30,8 +30,6 @@ func PathValidator(input string) (interface{}, error) {
 	if err != nil {
 		return nil, err
 	}
-	path = filepath.ToSlash(path)
-
 	return filepath.Clean(path), nil
 }
 

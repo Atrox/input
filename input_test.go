@@ -1,8 +1,10 @@
 package input
 
-import "testing"
-import "strings"
-import "bufio"
+import (
+	"bufio"
+	"strings"
+	"testing"
+)
 
 // TODO: better input tests
 func TestPrompt(t *testing.T) {

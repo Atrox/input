@@ -2,14 +2,14 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/mitchellh/go-homedir"
+  name = "github.com/atrox/homedir"
   packages = ["."]
-  revision = "b8bc1bf767474819792c23f32d8286a45736f1c6"
+  revision = "06c445c1ff71259ff8653dd17941b062b4c7f457"
+  version = "v1.0.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d8c52b9f6dad2047268d41b6f614fe8ec953f88ded51c44edfe83fd339c1f42b"
+  inputs-digest = "de4bab5d77f25d5a419abffac613ecf478b2a96e2159ca989ab1cdad2e374c34"
   solver-name = "gps-cdcl"
   solver-version = 1
