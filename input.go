@@ -1,3 +1,4 @@
+// Package input provides a simple, easy to use input handler for the CLI
 package input
 
 import (
